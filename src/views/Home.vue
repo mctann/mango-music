@@ -96,6 +96,7 @@ export default {
       artistName: "",
       artworkUrl100: "",
       primaryGenreName: "",
+      releaseDate: new Date(),
     });
     const musicList = ref<Music[]>([]);
 
